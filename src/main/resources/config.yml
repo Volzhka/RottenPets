@@ -1,0 +1,85 @@
+# ============================================================
+#  BetterPets - Configuración Principal
+#  Plugin de mascotas para Minecraft Java Paper 1.21.1
+# ============================================================
+
+# --- General ---
+idioma: es_mx
+# Habilitar mensajes de depuración en consola
+debug: false
+# Número máximo de mascotas por jugador (0 = sin límite)
+max-mascotas: 36
+# Guardar datos automáticamente cada X segundos (0 = desactivado)
+auto-guardado: 300
+
+# --- Mascota ---
+mascota:
+  # Cada cuantos ticks se actualizan las habilidades pasivas (20 ticks = 1 seg)
+  # Valores más altos = menos recursos del servidor
+  ticks-habilidades: 20
+  # Cada cuantos ticks sigue al jugador la mascota (10 = 0.5s, recomendado)
+  ticks-seguimiento: 10
+  # Distancia máxima antes de teletransportar la mascota al jugador
+  distancia-teleport: 20.0
+  # Distancia en la que la mascota para de moverse hacia el jugador
+  distancia-parada: 3.0
+  # La mascota sigue al jugador a través de dimensiones
+  seguir-dimensiones: true
+  # Velocidad de seguimiento de la mascota
+  velocidad-seguimiento: 1.4
+  # Las mascotas son visibles por defecto
+  visible-por-defecto: true
+  # Las mascotas son invulnerables
+  invulnerable: true
+  # Las mascotas hacen sonidos
+  silenciosas: false
+  # Las mascotas tienen nombres visibles sobre su cabeza
+  nombre-visible: true
+
+# --- Experiencia y Niveles ---
+exp:
+  # Nivel máximo de las mascotas
+  nivel-maximo: 100
+  # Fórmula: xp_requerida = base + (nivel_actual * multiplicador)
+  # Ejemplo (por defecto): nivel 1->2 = 100 XP, nivel 99->100 = 5000 XP
+  base: 50
+  multiplicador: 50
+  # La mascota gana EXP cuando el jugador gana EXP
+  ganar-exp-jugador: true
+  # Multiplicador de EXP ganada del jugador (1.0 = misma cantidad)
+  multiplicador-exp-jugador: 1.0
+  # Efectos al subir de nivel
+  efecto-subida: true
+  # Número de ticks del efecto de partículas al subir nivel
+  duracion-efecto: 60
+
+# --- Receta del Menú ---
+receta-menu:
+  activada: true
+  # El ítem resultante es el "Cristal de Mascotas" para abrir el menú
+  ingredientes:
+    centro: HEART_OF_THE_SEA
+    izquierda: BONE
+    derecha: CHEST
+
+# --- Protecciones ---
+protecciones:
+  # Las mascotas no atacan a jugadores
+  no-atacar-jugadores: true
+  # Las mascotas no destruyen bloques
+  no-destruir-bloques: true
+  # Las mascotas no se agreden entre sí
+  no-pvp-mascotas: true
+  # Las mascotas no toman daño de lava/fuego
+  inmune-fuego: true
+  # Las mascotas no caen al vacío (regresa al jugador)
+  proteger-vacio: true
+
+# --- Rendimiento ---
+rendimiento:
+  # Desactivar pathfinding nativo (usa teleportación directa, menos lag)
+  usar-teleport-directo: false
+  # Máximo de entidades de mascota activas simultáneamente en el servidor
+  max-entidades-activas: 100
+  # Descargar mascota si el jugador está inactivo más de X minutos (0 = no)
+  timeout-inactivo: 0

@@ -1,0 +1,431 @@
+# ============================================================
+#  BetterPets - Configuración de Mascotas
+#  Puedes cambiar nombres, descripciones, entidades y más.
+# ============================================================
+
+# Formato de nombre del ítem: &a[Niv {nivel}] {nombre}
+# Los valores de las habilidades se ajustan en el código,
+# pero puedes controlar si una mascota está habilitada aquí.
+
+mascotas:
+
+  # ----------------------------------------------------------
+  hormiga:
+    habilitada: true
+    nombre: "Hormiga"
+    descripcion:
+      - "Una pequeña pero poderosa compañera."
+      - "Reduce el tamaño del jugador con cada nivel."
+    habilidad: "Reducción de Escala"
+    descripcion-habilidad:
+      - "Tu tamaño disminuye a medida que subes de nivel,"
+      - "permitiéndote ser más sigilosa/o."
+    entidad: SILVERFISH
+    material-menu: IRON_NUGGET
+    color-nombre: GRAY
+
+  # ----------------------------------------------------------
+  ajolote:
+    habilitada: true
+    nombre: "Ajolote"
+    descripcion:
+      - "Un adorable anfibio del Overworld."
+      - "Aumenta el tiempo de respiración bajo el agua."
+    habilidad: "Bonus de Oxígeno"
+    descripcion-habilidad:
+      - "Cada nivel aumenta cuánto tiempo"
+      - "puedes respirar bajo el agua."
+    entidad: AXOLOTL
+    material-menu: WATER_BUCKET
+    color-nombre: AQUA
+
+  # ----------------------------------------------------------
+  dragon_azul:
+    habilitada: true
+    nombre: "Dragón Azul"
+    descripcion:
+      - "Un majestuoso dragón del End."
+      - "Aumenta el daño de ataque en el End."
+    habilidad: "Furia del End"
+    descripcion-habilidad:
+      - "En el End, tu daño de ataque aumenta"
+      - "significativamente con cada nivel."
+    entidad: PHANTOM
+    material-menu: DRAGON_EGG
+    color-nombre: DARK_AQUA
+
+  # ----------------------------------------------------------
+  gato:
+    habilitada: true
+    nombre: "Gato"
+    descripcion:
+      - "Un fiel compañero felino."
+      - "Reduce el daño de caída."
+    habilidad: "Bendición del Gato"
+    descripcion-habilidad:
+      - "El daño que recibes al caer"
+      - "se reduce con cada nivel."
+    entidad: CAT
+    material-menu: STRING
+    color-nombre: WHITE
+
+  # ----------------------------------------------------------
+  gallina:
+    habilitada: true
+    nombre: "Gallina"
+    descripcion:
+      - "Una gallina productiva."
+      - "Pone huevos periódicamente."
+    habilidad: "Puesta de Huevos"
+    descripcion-habilidad:
+      - "Genera huevos periódicamente"
+      - "mientras está activa."
+    entidad: CHICKEN
+    material-menu: EGG
+    # Intervalo de puesta de huevos en segundos (configurable)
+    intervalo-huevos: 60
+    color-nombre: WHITE
+
+  # ----------------------------------------------------------
+  perro:
+    habilitada: true
+    nombre: "Perro"
+    descripcion:
+      - "Un leal amigo canino."
+      - "Aplica Marchitamiento a no-muertos cuando recibes daño."
+    habilidad: "Mordida Santa"
+    descripcion-habilidad:
+      - "Al recibir daño de un no-muerto,"
+      - "hay una probabilidad de aplicarle Marchitamiento."
+    entidad: WOLF
+    material-menu: BONE
+    color-nombre: YELLOW
+
+  # ----------------------------------------------------------
+  delfin:
+    habilitada: true
+    nombre: "Delfín"
+    descripcion:
+      - "Un alegre nadador oceánico."
+      - "Otorga Gracia de Delfín y más velocidad en el agua."
+    habilidad: "Gracia Marina"
+    descripcion-habilidad:
+      - "Gracia de Delfín permanente + velocidad"
+      - "de movimiento en agua aumentada."
+    entidad: DOLPHIN
+    material-menu: COD
+    color-nombre: AQUA
+
+  # ----------------------------------------------------------
+  elder_guardian:
+    habilitada: true
+    nombre: "Elder Guardián"
+    descripcion:
+      - "El antiguo guardián de los monumentos oceánicos."
+      - "Aumenta la velocidad de minado bajo el agua."
+    habilidad: "Minado Profundo"
+    descripcion-habilidad:
+      - "Tu velocidad de minado bajo el agua"
+      - "aumenta con cada nivel."
+    entidad: ELDER_GUARDIAN
+    material-menu: SPONGE
+    color-nombre: DARK_PURPLE
+
+  # ----------------------------------------------------------
+  ghast:
+    habilitada: true
+    nombre: "Ghast"
+    descripcion:
+      - "Un espíritu flotante del Nether."
+      - "Aumenta la resistencia al daño de explosión."
+    habilidad: "Piel de Fuego"
+    descripcion-habilidad:
+      - "La resistencia al retroceso y daño"
+      - "de explosiones aumenta con cada nivel."
+    entidad: GHAST
+    material-menu: GHAST_TEAR
+    color-nombre: WHITE
+
+  # ----------------------------------------------------------
+  hamster:
+    habilitada: true
+    nombre: "Hámster"
+    descripcion:
+      - "Una pequeña bolita de energía."
+      - "Aumenta la altura de paso (subir bloques sin saltar)."
+    habilidad: "Patas Ágiles"
+    descripcion-habilidad:
+      - "Puedes subir bloques más altos"
+      - "sin necesidad de saltar."
+    entidad: RABBIT
+    material-menu: WHEAT_SEEDS
+    color-nombre: GOLD
+
+  # ----------------------------------------------------------
+  herobrine:
+    habilitada: true
+    nombre: "Herobrine"
+    descripcion:
+      - "La leyenda que no debería existir."
+      - "Aumenta tu salud máxima y convoca tormenta eterna."
+    habilidad: "Terror Eterno"
+    descripcion-habilidad:
+      - "Tu salud máxima aumenta con el nivel."
+      - "El clima siempre es tormenta."
+    entidad: ZOMBIE
+    material-menu: NETHERITE_INGOT
+    color-nombre: DARK_RED
+
+  # ----------------------------------------------------------
+  buho:
+    habilitada: true
+    nombre: "Búho"
+    descripcion:
+      - "El sabio ave de la noche."
+      - "Otorga Visión Nocturna permanente y aumenta la suerte."
+    habilidad: "Ojo Omnisciente"
+    descripcion-habilidad:
+      - "Visión nocturna permanente."
+      - "La suerte aumenta con cada nivel."
+    entidad: PARROT
+    material-menu: FEATHER
+    color-nombre: YELLOW
+
+  # ----------------------------------------------------------
+  panda:
+    habilitada: true
+    nombre: "Panda"
+    descripcion:
+      - "El oso bambú del lejano oriente."
+      - "Aumenta el retroceso de tus ataques."
+    habilidad: "Golpe Panda"
+    descripcion-habilidad:
+      - "Tus ataques empujan más lejos"
+      - "a los enemigos con cada nivel."
+    entidad: PANDA
+    material-menu: BAMBOO
+    color-nombre: WHITE
+
+  # ----------------------------------------------------------
+  pinguino:
+    habilitada: true
+    nombre: "Pingüino"
+    descripcion:
+      - "El elegante habitante del ártico."
+      - "Otorga bonificaciones especiales en biomas fríos."
+    habilidad: "Adaptación Ártica"
+    descripcion-habilidad:
+      - "En biomas fríos, recibes bonificaciones"
+      - "de velocidad y resistencia."
+    entidad: SNOWMAN
+    material-menu: PACKED_ICE
+    color-nombre: AQUA
+    # Biomas considerados "fríos" (puedes agregar más)
+    biomas-frios:
+      - FROZEN_OCEAN
+      - FROZEN_RIVER
+      - SNOWY_PLAINS
+      - SNOWY_SLOPES
+      - FROZEN_PEAKS
+      - ICE_SPIKES
+      - SNOWY_TAIGA
+      - SNOWY_BEACH
+      - JAGGED_PEAKS
+      - GROVE
+
+  # ----------------------------------------------------------
+  dragon_rojo:
+    habilitada: true
+    nombre: "Dragón Rojo"
+    descripcion:
+      - "Un temible dragón del Nether."
+      - "Aumenta el daño de ataque en el Nether."
+    habilidad: "Furia Infernal"
+    descripcion-habilidad:
+      - "En el Nether, tu daño de ataque"
+      - "aumenta significativamente con el nivel."
+    entidad: BLAZE
+    material-menu: FIRE_CHARGE
+    color-nombre: RED
+
+  # ----------------------------------------------------------
+  loro_rojo:
+    habilitada: true
+    nombre: "Loro Rojo"
+    descripcion:
+      - "Un loro parlanchín y travieso."
+      - "Genera objetos aleatorios cada cierto tiempo."
+    habilidad: "Tesoro Robado"
+    descripcion-habilidad:
+      - "Periódicamente aparece un objeto"
+      - "aleatorio de su colección."
+    entidad: PARROT
+    material-menu: COOKIE
+    # Intervalo de generación de objetos en segundos
+    intervalo-objetos: 120
+    # Objetos posibles a generar (aleatorio)
+    objetos-posibles:
+      - GOLD_NUGGET
+      - EMERALD
+      - DIAMOND
+      - IRON_INGOT
+      - GOLD_INGOT
+      - LAPIS_LAZULI
+      - COOKIE
+      - FEATHER
+      - LEATHER
+    color-nombre: RED
+
+  # ----------------------------------------------------------
+  fenix:
+    habilitada: true
+    nombre: "Fénix"
+    descripcion:
+      - "El ave del fuego eterno."
+      - "Resistencia al fuego y enciende a los no-muertos cercanos."
+    habilidad: "Llama del Renacimiento"
+    descripcion-habilidad:
+      - "Resistencia al fuego permanente."
+      - "Al atacar no-muertos, los enciendes."
+    entidad: BLAZE
+    material-menu: FIRE_CHARGE
+    # Duración de fuego en ticks aplicada a no-muertos
+    duracion-fuego-base: 10
+    color-nombre: GOLD
+
+  # ----------------------------------------------------------
+  pez_globo:
+    habilitada: true
+    nombre: "Pez Globo"
+    descripcion:
+      - "El pez que intimida con su tamaño."
+      - "Otorga respiración acuática permanente."
+    habilidad: "Pulmón Acuático"
+    descripcion-habilidad:
+      - "Puedes respirar bajo el agua"
+      - "sin límite de tiempo."
+    entidad: PUFFERFISH
+    material-menu: PUFFERFISH
+    color-nombre: YELLOW
+
+  # ----------------------------------------------------------
+  conejo:
+    habilitada: true
+    nombre: "Conejo"
+    descripcion:
+      - "Un ágil saltarín del campo."
+      - "Aumenta el salto y la distancia de caída segura."
+    habilidad: "Salto de Conejo"
+    descripcion-habilidad:
+      - "Tu salto es más alto y puedes"
+      - "caer de mayor altura sin daño."
+    entidad: RABBIT
+    material-menu: RABBIT_FOOT
+    color-nombre: WHITE
+
+  # ----------------------------------------------------------
+  segador:
+    habilitada: true
+    nombre: "Segador"
+    descripcion:
+      - "El portador de la guadaña oscura."
+      - "Aumenta la velocidad de ataque y aplica efectos oscuros."
+    habilidad: "Aura Oscura"
+    descripcion-habilidad:
+      - "Tu velocidad de ataque aumenta."
+      - "Aplica Marchitamiento con tu aura cada 3 segundos."
+    entidad: ENDERMAN
+    material-menu: COAL
+    # Radio del aura de marchitamiento en bloques
+    radio-aura: 9
+    color-nombre: DARK_GRAY
+
+  # ----------------------------------------------------------
+  caracol:
+    habilitada: true
+    nombre: "Caracol"
+    descripcion:
+      - "El maestro del movimiento sigiloso."
+      - "Aumenta la velocidad al agacharse."
+    habilidad: "Paso Suave"
+    descripcion-habilidad:
+      - "Tu velocidad mientras te agachas"
+      - "aumenta con cada nivel."
+    entidad: SILVERFISH
+    material-menu: SLIME_BALL
+    color-nombre: GREEN
+
+  # ----------------------------------------------------------
+  espinosaurio:
+    habilitada: true
+    nombre: "Espinosaurio"
+    descripcion:
+      - "El coloso de otra era."
+      - "Aumenta el tamaño del jugador con cada nivel."
+    habilidad: "Crecimiento Titánico"
+    descripcion-habilidad:
+      - "Tu tamaño aumenta con cada nivel,"
+      - "haciendo que seas más imponente/a."
+    entidad: RAVAGER
+    material-menu: PRISMARINE_SHARD
+    color-nombre: DARK_GREEN
+
+  # ----------------------------------------------------------
+  tigre:
+    habilitada: true
+    nombre: "Tigre"
+    descripcion:
+      - "El depredador ágil de la jungla."
+      - "Aumenta la velocidad de movimiento y el daño de barrido."
+    habilidad: "Instinto Felino"
+    descripcion-habilidad:
+      - "Velocidad de movimiento aumentada."
+      - "Daño de barrido máximo activo."
+    entidad: CAT
+    material-menu: ORANGE_DYE
+    color-nombre: GOLD
+
+  # ----------------------------------------------------------
+  tortuga:
+    habilitada: true
+    nombre: "Tortuga"
+    descripcion:
+      - "El antiguo escudo viviente."
+      - "Aumenta la resistencia al retroceso."
+    habilidad: "Caparazón de Acero"
+    descripcion-habilidad:
+      - "La resistencia al retroceso"
+      - "aumenta con cada nivel."
+    entidad: TURTLE
+    material-menu: SCUTE
+    color-nombre: GREEN
+
+  # ----------------------------------------------------------
+  guardian:
+    habilitada: true
+    nombre: "Guardián"
+    descripcion:
+      - "El centinela de las profundidades oscuras."
+      - "Eres inmune al daño del Guardián del Abismo."
+    habilidad: "Pacto del Guardián"
+    descripcion-habilidad:
+      - "El Guardián del Abismo no te"
+      - "podrá detectar ni dañar fácilmente."
+    entidad: WARDEN
+    material-menu: SCULK_SENSOR
+    color-nombre: DARK_AQUA
+
+  # ----------------------------------------------------------
+  gusano:
+    habilitada: true
+    nombre: "Gusano"
+    descripcion:
+      - "El pequeño excavador incansable."
+      - "Aumenta la eficiencia de minado."
+    habilidad: "Excavación Acelerada"
+    descripcion-habilidad:
+      - "Tu velocidad de minado aumenta"
+      - "con cada nivel de tu gusano."
+    entidad: ENDERMITE
+    material-menu: DIRT
+    color-nombre: DARK_GREEN

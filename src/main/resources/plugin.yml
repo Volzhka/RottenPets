@@ -1,0 +1,37 @@
+name: BetterPets
+version: '${project.version}'
+main: com.betterpets.BetterPetsPlugin
+api-version: '1.21'
+description: Sistema completo de mascotas con habilidades y niveles
+authors: [BetterPets]
+website: ''
+
+commands:
+  mascotas:
+    description: Abre el menú de mascotas
+    usage: /mascotas [dar <jugador> <tipo>|lista|recargar|info <tipo>]
+    aliases: [pets, masco]
+  mascota:
+    description: Atajo para abrir el menú de mascotas
+    usage: /mascota
+    aliases: [pet]
+
+permissions:
+  betterpets.menu:
+    description: Permite abrir el menú de mascotas
+    default: true
+  betterpets.use:
+    description: Permite usar mascotas
+    default: true
+  betterpets.admin:
+    description: Acceso a comandos de administración
+    default: op
+  betterpets.give:
+    description: Permite dar mascotas a otros jugadores
+    default: op
+  betterpets.reload:
+    description: Permite recargar la configuración
+    default: op
+  betterpets.bypass.limit:
+    description: Sin límite de mascotas en el inventario
+    default: op

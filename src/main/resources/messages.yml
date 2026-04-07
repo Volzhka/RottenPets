@@ -1,0 +1,96 @@
+# ============================================================
+#  BetterPets - Mensajes (Español México)
+#  Puedes usar códigos de color de Minecraft: &a, &b, &c, etc.
+#  Usa {0}, {1}, etc. para variables dinámicas
+# ============================================================
+
+prefijo: "&6[&aMascotas&6]&r "
+
+# --- General ---
+general:
+  sin-permiso: "&cNo tienes permiso para hacer eso."
+  jugador-no-encontrado: "&cJugador '{0}' no encontrado."
+  uso-incorrecto: "&cUso incorrecto. Escribe /mascotas para ver la ayuda."
+  recargando: "&eRecargando configuración..."
+  recargado: "&aConfiguración recargada correctamente."
+  error: "&cOcurrió un error inesperado. Revisa la consola."
+
+# --- Menú ---
+menu:
+  titulo: "&6Menú de Mascotas &7(Pág. {0})"
+  pagina-siguiente: "&aSiguiente Página"
+  pagina-siguiente-lore: "&7Ir a la página {0}"
+  pagina-anterior: "&aPágina Anterior"
+  pagina-anterior-lore: "&7Ir a la página {0}"
+  cerrar: "&cCerrar"
+  cerrar-lore: "&7Haz clic para cerrar el menú"
+  despawnear: "&5Despawnear Mascota"
+  despawnear-lore: "&7Haz clic para hacer desaparecer\n&7a tu mascota activa."
+  convertir: "&4Convertir a Ítem"
+  convertir-lore: "&7Haz clic para convertir tu\n&7mascota activa de vuelta a ítem.\n&c¡Esto la quitará de tu lista!"
+  visibilidad: "&eVisibilidad de Mascota"
+  visibilidad-lore-visible: "&7Estado: &aVisible\n&7Haz clic para ocultarla."
+  visibilidad-lore-oculta: "&7Estado: &cOculta\n&7Haz clic para mostrarla."
+  nivel-display: "&bPanel de Niveles"
+  nivel-display-lore-sin: "&cSin mascota activa"
+  nivel-display-lore: "&7Mascota: &a{0}\n&7Nivel: &b{1}&7/&b100\n&7EXP: &e{2}&7/&e{3}"
+  filler: " "
+  vacio: "&7Vacío"
+  # Texto del ítem de mascota en el menú
+  mascota-activa: "&a★ ACTIVA"
+  mascota-nivel: "&7Nivel: &b{0}"
+  mascota-exp: "&7EXP: &e{0}&7/&e{1}"
+  mascota-habilidad: "&6✧ {0}"
+
+# --- Mascotas ---
+mascota:
+  spawneada: "&aTu mascota &b{0} &aha aparecido."
+  despawneada: "&7Tu mascota &b{0} &7ha desaparecido."
+  ya-activa: "&eTu mascota &b{0} &eya está activa."
+  cambiada: "&aAhora tu mascota activa es &b{0}&a."
+  sin-activa: "&cNo tienes ninguna mascota activa."
+  oculta: "&7Tu mascota ahora está &coculta&7."
+  visible: "&aTu mascota ahora está &avisible&a."
+  convertida: "&6Tu mascota &b{0} &6ha sido convertida a ítem y guardada en tu inventario."
+  inventario-lleno: "&cTu inventario está lleno. Haz espacio para convertir la mascota."
+  limite-alcanzado: "&cHas alcanzado el límite de mascotas ({0})."
+  obtenida: "&aTienes una nueva mascota: &b{0}&a!"
+  no-encontrada: "&cNo tienes esa mascota."
+  tipo-invalido: "&cTipo de mascota inválido: '{0}'"
+
+# --- Niveles ---
+nivel:
+  subio: "&a- Tu mascota &b{0} &aha alcanzado el nivel &b{1}&a."
+  maximo: "&6¡Tu mascota &b{0} &6ha alcanzado el nivel máximo! &e¡Eres un Domador Divino!"
+  formato-item: "&a[Niv {0}] {1}"
+
+# --- Comandos ---
+comando:
+  ayuda: |
+    &6=== Ayuda de BetterPets ===
+    &e/mascotas &7- Abre el menú de mascotas.
+    &e/mascotas lista &7- Lista tus mascotas.
+    &e/mascotas info <tipo> &7- Info de un tipo de mascota.
+    &e/mascotas dar <jugador> <tipo> &7- (Admin) Da una mascota.
+    &e/mascotas recargar &7- (Admin) Recarga la config.
+  lista-titulo: "&6=== Tus Mascotas ({0}) ==="
+  lista-entrada: "&7- &b{0} &7| Nivel &e{1} &7| EXP &e{2}/{3}"
+  lista-vacia: "&7No tienes mascotas todavía."
+  dar-exito: "&aLe diste una mascota &b{0} &aa &b{1}&a."
+  dar-recibido: "&b{0} &ate ha dado una mascota: &b{1}&a!"
+  info-titulo: "&6=== Info: {0} ==="
+  info-habilidad: "&e✧ Habilidad: &7{0}"
+  info-descripcion: "&7{0}"
+
+# --- Habilidades ---
+habilidades:
+  aura-marchitamiento: "&5El aura de tu Segador aplicó Marchitamiento a un enemigo cercano."
+  cosecha-oscura: "&8Tu Segador cosechó el alma de un enemigo."
+  fuego-fenix: "&6Tu Fénix encendió a un no-muerto cercano."
+  perro-marchitamiento: "&5Tu Perro aplicó Marchitamiento al no-muerto que te dañó."
+  pufferfish-alerta: "&bTu Pez Globo alertó a los enemigos cercanos."
+  loro-objeto: "&aTu Loro Rojo encontró: &e{0}&a!"
+  gallina-huevo: "&fTu Gallina puso un huevo."
+  guardian-inmunidad: "&3Eres inmune al daño del Guardián gracias a tu mascota."
+  pinguino-frio: "&bTu Pingüino te protege del frío. ¡Estás en tu elemento!"
+  dragon-poder: "&c¡Tu Dragón se potencia en esta dimensión!"
